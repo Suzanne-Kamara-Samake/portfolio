@@ -6,82 +6,83 @@ M.data = [
   {
     projectTitle: "One page - Esthero, Breath from Another",
     titleColor: "pink",
-    imageProject: "/public/Project/bfa.svg",
+    imageProject: "/Project/bfa.svg",
     tagBgColor: "light-blue",
     tagTextcolor: "white",
+    projectLink: "https://www.figma.com/design/UJWdqA80kZyvqLuO85ME1T/Esthero-Breath-from-Another?node-id=0-1&t=lZle1Y4UQduiXd6n-1",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
     description:
-      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d’un cours de où nous avions a designer un one page de présentation d’une oeuvre en incorporant l’identité visuelle de l’oeuvre dans la charte graphique du site designé",
+      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d'un cours de où nous avions a designer un one page de présentation d'une oeuvre en incorporant l'identité visuelle de l'oeuvre dans la charte graphique du site designé",
   },
   {
     projectTitle: "One page - Klimt, Adele Bloch Bauer",
     titleColor: "pink",
-    imageProject: "/public/Project/bfa.svg",
+    imageProject: "/Project/bfa.svg",
     tagBgColor: "pink",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • academic",
     description:
-      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d’un cours de où nous avions a designer un one page de présentation d’une oeuvre en incorporant l’identité visuelle de l’oeuvre dans la charte graphique du site designé",
+      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d'un cours de où nous avions a designer un one page de présentation d'une oeuvre en incorporant l'identité visuelle de l'oeuvre dans la charte graphique du site designé",
   },
   {
     projectTitle: "Site e-commerce - Evisu",
     titleColor: "pink",
-    imageProject: "/public/Project/evisu.svg",
+    imageProject: "/Project/evisu.svg",
     tagBgColor: "orange",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
     description:
-      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d’un cours de où nous avions a designer un one page de présentation d’une oeuvre en incorporant l’identité visuelle de l’oeuvre dans la charte graphique du site designé",
+      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d'un cours de où nous avions a designer un one page de présentation d'une oeuvre en incorporant l'identité visuelle de l'oeuvre dans la charte graphique du site designé",
   },
   {
     projectTitle: "site de streaming fictif",
     titleColor: "pink",
-    imageProject: "/public/Project/stream.svg",
+    imageProject: "/Project/stream.svg",
     tagBgColor: "light-blue",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
     description:
-      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d’un cours de où nous avions a designer un one page de présentation d’une oeuvre en incorporant l’identité visuelle de l’oeuvre dans la charte graphique du site designé",
+      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d'un cours de où nous avions a designer un one page de présentation d'une oeuvre en incorporant l'identité visuelle de l'oeuvre dans la charte graphique du site designé",
   },
   {
     projectTitle: "cartes de mouvement artistique",
     titleColor: "pink",
-    imageProject: "/public/Project/card.svg",
+    imageProject: "/Project/card.svg",
     tagBgColor: "light-blue",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
     description:
-      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d’un cours de où nous avions a designer un one page de présentation d’une oeuvre en incorporant l’identité visuelle de l’oeuvre dans la charte graphique du site designé",
+      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d'un cours de où nous avions a designer un one page de présentation d'une oeuvre en incorporant l'identité visuelle de l'oeuvre dans la charte graphique du site designé",
   },
   {
     projectTitle: "Portfolio de compétences",
     titleColor: "pink",
-    imageProject: "/public/Project/portfolio.svg",
+    imageProject: "/Project/portfolio.svg",
     tagBgColor: "light-blue",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
     description:
-      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d’un cours de où nous avions a designer un one page de présentation d’une oeuvre en incorporant l’identité visuelle de l’oeuvre dans la charte graphique du site designé",
+      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d'un cours de où nous avions a designer un one page de présentation d'une oeuvre en incorporant l'identité visuelle de l'oeuvre dans la charte graphique du site designé",
   },
   {
     projectTitle: "One page - Olive Oil",
     titleColor: "pink",
-    imageProject: "/public/Project/oliveoil.svg",
+    imageProject: "/Project/oliveoil.svg",
     tagBgColor: "light-blue",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
     description:
-      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d’un cours de où nous avions a designer un one page de présentation d’une oeuvre en incorporant l’identité visuelle de l’oeuvre dans la charte graphique du site designé",
+      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d'un cours de où nous avions a designer un one page de présentation d'une oeuvre en incorporant l'identité visuelle de l'oeuvre dans la charte graphique du site designé",
   },
   {
     projectTitle: "application - Hemera",
     titleColor: "pink",
-    imageProject: "/public/Project/hemera.svg",
+    imageProject: "/Project/hemera.svg",
     tagBgColor: "light-blue",
     tagTextcolor: "white",
     tag: "web design • UX/UI • personnal • web design • UX/UI • personnal",
     description:
-      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d’un cours de où nous avions a designer un one page de présentation d’une oeuvre en incorporant l’identité visuelle de l’oeuvre dans la charte graphique du site designé",
+      "cE PROJET a été réalisé dans un cadre personnelle. Il a été inspiré par un travail réalisé lors d'un cours de où nous avions a designer un one page de présentation d'une oeuvre en incorporant l'identité visuelle de l'oeuvre dans la charte graphique du site designé",
   },
 ];
 
@@ -106,60 +107,39 @@ V.renderTemplate = function (data, template) {
 
 V.renderLayout = function () {
   let data = M.data;
-  let elt = "";
-
   let html = ProjectView.dom();
-
-  let container = html.getElementById("container");
-  let layoutElement = html.querySelector(`template#basicLayout`);
-  // console.log(layoutElement);
+  let container = html.querySelector("#container");
+  let layoutElement = html.querySelector("template#basicLayout");
   let templates = html.querySelectorAll(".component");
-  
-  // let slots = templateSlot.querySelectorAll('slot');
-  // console.log(slots);
-  let maxi = 0;
-  let slot = null;
 
-  // let templateSlot=layoutElement.content.cloneNode(true);
-  for (let i = 0; i < data.length; i++) {
-    let templateSlot = layoutElement.content.cloneNode(true);
-    let slotContainer = document.createElement("div");
-    let slots = templateSlot.querySelectorAll("slot");
-    if (maxi > 2) {
-      maxi = 0;
-      container.appendChild(slotContainer);
+  for (let i = 0; i < data.length; i += 3) {
+    let layoutClone = layoutElement.content.cloneNode(true);
+    let slots = layoutClone.querySelectorAll("slot");
+    let layoutWrapper = document.createElement("div");
+
+    layoutWrapper.classList.add(
+      "flex",
+      "flex-row",
+      "md:flex-row",
+      "md:justify-between",
+      "md:gap-4",
+      "mb-8"
+    );
+
+    for (let slotIndex = 0; slotIndex < slots.length && i + slotIndex < data.length; slotIndex++) {
+      let slot = slots[slotIndex];
+      let elt = V.renderTemplate(data[i + slotIndex], templates[slotIndex]);
+      slot.replaceWith(htmlToFragment(elt));
     }
-    slot = slots[maxi];
-    console.log(maxi, slot,data[i]);
-    // console.log(templates[maxi].innerHTML);
-    elt = V.renderTemplate(data[i], templates[maxi]);
-    //    console.log(elt);
-    //    console.log(htmlToFragment(elt));
-    slot.appendChild(htmlToFragment(elt));
-    console.log(slot);
-    maxi++;
-    slotContainer.appendChild(slot);
-    container.appendChild(slotContainer);
-  }
-  // console.log(container.innerHTML);
-  return container.innerHTML;
-};
 
-// V.renderLayout = function(data){
-//     let elt="";
-//     let html = ProjectView.dom();
-//     let layoutElement = html.querySelector(`template#basic layout`);
-//     let slots = layoutElement.querySelectorAll('slot');
-//     let templates=html.qurySelectorAll('template');
-//     for (let elt of data){
-//         let slot = slots[elt.slotIndex];
-//         for (let i=0;i<templates.length;i++){
-//         elt+=V.renderTemplate(elt.data,templates[i].className);
-//     }
-//     slot.replaceWith(elt);
-//     return layoutElement.innerHTML;
-// }
-// }
+    layoutWrapper.appendChild(layoutClone);
+    container.appendChild(layoutWrapper);
+  }
+
+  let temp = document.createElement("div");
+  temp.appendChild(html.cloneNode(true));
+  return temp.innerHTML;
+};
 
 V.render = function () {
   return ProjectView.html();
@@ -170,6 +150,5 @@ C.init = function () {
   return V.renderLayout();
 };
 export function ProjectPage() {
-  // document.body.appendChild(ProjectView.dom());
   return C.init();
 }

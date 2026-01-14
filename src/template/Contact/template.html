@@ -1,43 +1,61 @@
 <!-- Footer Section - Figma Design -->
 <footer class="bg-gradient-to-b from-[#3c78ac] via-[#5a9bd0] to-[#7cb342] py-[60px] px-[23px] relative">
-	<!-- Background Image -->
-	<div class="absolute inset-0 pointer-events-none">
-		<img src="/public/Contact/landscape-bg.jpg" alt="" class="w-full h-full object-cover opacity-30">
-	</div>
-	
-	<div class="relative max-w-[1349px] mx-auto">
-		<!-- Thank You Section -->
-		<div class="mb-[100px]">
-			<p class="text-[#fcd41a] text-[40px] font-['DeFonte_Reduced:Leger',sans-serif] uppercase">merci pour votre visite</p>
-		</div>
-		
-		<!-- Contact Information Grid -->
-		<div class="grid grid-cols-4 gap-[20px] max-w-[1000px]">
-			<!-- CV Button -->
-			<div class="bg-[rgba(207,219,230,0.75)] backdrop-blur-sm rounded-[10px] p-[20px] text-center">
-				<p class="text-[#1a4e9c] text-[24px] font-['Kristina_Bold:Regular',sans-serif] uppercase">accéder à mon CV ⇝</p>
-			</div>
-			
-			<!-- Phone Section -->
-			<div class="bg-[rgba(237,129,176,0.75)] backdrop-blur-sm rounded-[10px] p-[30px] text-center flex flex-col gap-4">
-				<svg class="w-[86px] h-[78px] mx-auto" viewBox="0 0 86 78" fill="none">
-					<!-- Phone icon SVG -->
-				</svg>
-				<p class="text-[#f6f0d2] text-[24px] font-['Kristina_Bold:Regular',sans-serif] uppercase">07 • 69 • 17 • 63 • 17</p>
-			</div>
-			
-			<!-- Email Section -->
-			<div class="bg-white/75 backdrop-blur-sm rounded-[10px] p-[30px] text-center flex flex-col gap-4">
-				<svg class="w-[207px] h-[120px] mx-auto" viewBox="0 0 207 120" fill="none">
-					<!-- Email icon SVG -->
-				</svg>
-				<p class="text-[#ffea88] text-[24px] font-['Kristina_Bold:Regular',sans-serif] uppercase">susannkam241@gmail.com</p>
-			</div>
-			
-			<!-- GitHub Section -->
-			<div class="bg-white/75 backdrop-blur-sm rounded-[10px] p-[30px]">
-				<img src="/public/Contact/github.svg" alt="GitHub" class="w-full h-[91px] object-contain">
-			</div>
-		</div>
-	</div>
+  <!-- Background Image -->
+  <div class="absolute inset-0 pointer-events-none">
+    <img src="/Contact/landscape-bg.jpg" alt="" class="w-full h-full object-cover opacity-30">
+  </div>
+
+  <div class="relative max-w-[1349px] mx-auto">
+    <!-- Ladybug Icon -->
+    <div class="mb-[30px]">
+      <img src="/Contact/ladybug.svg" alt="Coccinelle" class="w-[61px] h-[47px] object-contain">
+    </div>
+
+    <!-- Thank You Section -->
+    <div class="mb-[20px]">
+      <p class="text-[#fcd41a] text-[40px] font-['DeFonte_Reduced:Leger',sans-serif] uppercase">merci pour votre visite</p>
+    </div>
+
+    <!-- Yellow Separator Line -->
+    <div class="mb-[40px] h-[2px] bg-[#fcd41a] w-full"></div>
+
+    <!-- Contact Information Grid -->
+    <div class="flex flex-row items-center gap-[20px] max-w-none">
+      <div class="w-max relative content-between flex flex-col gap-8">
+        <!-- Phone Section -->
+        <div class="w-full h-36 bg-[rgba(237,129,176,0.75)] backdrop-blur-sm rounded-[10px] p-[30px] text-center flex flex-col gap-4 items-center justify-center">
+          <img src="/Contact/phone.svg" alt="Téléphone" class="w-[86px] h-[78px] object-contain">
+          <p class="text-[#f6f0d2] text-2xl font-['Kristina_Bold:Regular',sans-serif] uppercase">07 • 69 • 17 • 63 • 17</p>
+        </div>
+
+        <!-- CV Button Below -->
+        <div class="w-max h-36">
+          <div class="bg-[rgba(207,219,230,0.75)] backdrop-blur-sm rounded-[10px] p-[20px] px-[30px] text-center">
+            <p class="text-[#1a4e9c] text-[24px] font-['Kristina_Bold:Regular',sans-serif] uppercase">accéder à mon CV ⇝</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Email Section -->
+      <div class="w-max h-max p-7 bg-white/75 backdrop-blur-sm rounded-[10px] text-center flex flex-col gap-4 items-center justify-center">
+        <img src="/Contact/mail.svg" alt="Email" class="w-[208px] h-[121px] object-contain">
+        <p class="text-[#ffea88] text-[24px] font-['Kristina_Bold:Regular',sans-serif] uppercase">susannkam241@gmail.com</p>
+      </div>
+
+      <!-- LinkedIn Section -->
+      <div class="flex flex-col items-center justify-center">
+        <img src="/Contact/linkedIn.svg" alt="LinkedIn" class="w-[104px] h-[104px] object-contain">
+      </div>
+
+      <!-- Neocities Section -->
+      <div class="flex flex-col items-center justify-center">
+        <img src="/Contact/neocities.svg" alt="Neocities" class="w-[104px] h-[104px] object-contain">
+      </div>
+
+      <!-- GitHub Section -->
+      <div class="flex flex-col items-center justify-center">
+        <img src="/Contact/github.svg" alt="GitHub" class="w-[104px] h-[104px] object-contain">
+      </div>
+    </div>
+  </div>
 </footer>

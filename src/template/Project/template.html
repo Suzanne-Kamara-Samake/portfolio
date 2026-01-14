@@ -1,73 +1,107 @@
-<section class="flex flex-row">
-<div id="container"></div>
+<main
+  class="flex-1 rounded-4xl m-6 bg-white/50 overflow-visible p-4 w-screen h-max pt-20 md:p-[66px] flex flex-row gap-4 md:gap-[51.17px] relative"
+>
+  <div id="container" class="flex flex-row overflow-x-scroll overflow-y-hidden scroll-auto scrollbar-hide"></div>
+
   <template id="basicLayout">
     <slot></slot>
-    <div>
+    <div class="flex flex-col gap-2 w-[629px]">
       <slot></slot>
       <slot></slot>
     </div>
   </template>
 
-
   <!-- template 1 -->
-   <template class="template1 component">
-  <article>
-    <h3 class="w-80 justify-start text-{{titleColor}} text-xl font-normal uppercase">
-      {{projectTitle}} >>
-    </h3>
+  <template class="template1 component">
+    
+    <article class="flex flex-col gap-4 w-[569.67px]">
+      <h3 class="w-80 justify-start text-{{titleColor}} text-xl font-normal uppercase">
+        {{projectTitle}} >>
+      </h3>
 
-    <div class="h-[579px] w-[569px]">
-      <img src="{{imageProject}}" alt="{{projectTitle}}" />
-      <object data="/public/Project/frameImacG3.svg" type="image/svg+xml"></object>
+      <a href="{{projectLink}}">
+      <div class="h-[579px] w-[569px] relative">
+        <img
+          class="absolute z-10 left-[42px] top-[51.5px]"
+          src="{{imageProject}}"
+          alt="{{projectTitle}}"
+        />
+        <object
+          class="absolute z-5"
+          data="/Project/frameImacG3.svg"
+          type="image/svg+xml"
+        ></object>
 
-      <div class="w-[569px] h-20 bg-{{tagBgColor}}">
-        <p
-          class="mt-[47px] justify-start text-{{tagTextcolor}} text-xl font-normal uppercase"
-        >
-          {{tag}}
-        </p>
+        <div class="w-[569px] h-20 bg-{{tagBgColor}} overflow-hidden absolute bottom-0 flex items-center pt-8">
+          <p class="whitespace-nowrap text-{{tagTextcolor}} text-xl font-normal uppercase mx-1">
+            {{tag}}
+          </p>
+        </div>
       </div>
-    </div>
+      </a>
 
-    <p
-      class="w-[565px] justify-start text-black text-xl font-normal font-['Encode_Sans_SC'] uppercase"
-    >
-      {{description}}
-    </p>
-  </article>
+      <p class="w-[565px] justify-start text-black text-xl font-normal uppercase">
+        {{description}}
+      </p>
+    </article>
   </template>
 
   <!-- template 2 -->
-   <template class="template2 component">
-  <article class="flex flex-row">
-    <div class="flex flex-col ">
+  <template class="template2 component">
+    <article>
       <div class="flex flex-row">
-        <div class="rotate-90 bg-{{tagBgColor}}">
-          <p class="justify-start text-{{tagTextcolor}} text-xl font-normal uppercase">{{tag}}</p>
+        <div class="flex flex-col items-center">
+          <div class="h-72 overflow-hidden relative">
+            <div class="bottom-[232.9px] absolute left-[-217px] -rotate-90 bg-pink text-white">
+              <p>{{tag}}</p>
+            </div>
+            <img class="w-full" src="{{imageProject}}" alt="{{projectTitle}}" />
+          </div>
+
+          <h3 class="text-pink text-xl font-normal uppercase">
+            {{projectTitle}} >>
+          </h3>
         </div>
-        <img src="{{imageProject}}" alt="{{projectTitle}}" />
-    <object data="/public/Project/FrameMacintosh.svg" type="image/svg+xml"></object>
-</div>
-      <h3 class="text-{{titleColor}} text-xl font-normal uppercase">{{projectTitle}} >></h3>
-    </div>
-    <p class="text-black text-xl font-normal uppercase">{{description}}</p>
-  </article>
-</template>
 
-<!-- template 3 -->
- <template class="template3 component">
-<article>
-	<div>
-    <img src="{{imageProject}}" alt="{{projectTitle}}" />
-	<div>
-		<h3 class="text-pink text-xl font-normal uppercase">{{projectTitle}} >></h3>
-		<p class="text-black text-xl font-normal uppercase">{{description}}</p>
-	</div>
-  </div>
+        <p class="w-60 text-black text-xl font-normal uppercase">
+          {{description}}
+        </p>
+      </div>
+    </article>
+  </template>
 
-	<div>
-		<p>{{tag}}</p>
-	</div>
-</article>
-</template>
-</section>
+  <!-- template 3 -->
+  <template class="template3 component">
+    <article class="flex flex-col">
+      <div id="descAndImage" class="flex flex-row">
+        <div class="relative w-64 h-96">
+          <img
+            class="absolute z-10 w-[212.5px] left-[20.52px] top-[38.83px]"
+            src="{{imageProject}}"
+            alt="{{projectTitle}}"
+          />
+          <object
+            class="relative top-0 z-5"
+            data="/Project/FrameMacintosh.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+        <div>
+          <h3 class="text-{{titleColor}} text-xl font-normal uppercase">
+            {{projectTitle}} >>
+          </h3>
+
+          <p class="text-black text-xl font-normal uppercase">
+            {{description}}
+          </p>
+        </div>
+      </div>
+
+      <div class="w-[638px] h-28 bg-{{tagBgColor}}">
+        <p class="justify-start text-{{tagTextcolor}} text-xl font-normal uppercase">
+          {{tag}}
+        </p>
+      </div>
+    </article>
+  </template>
+</main>
