@@ -251,11 +251,8 @@ class Router {
   
   // Attacher les event listeners après le rendu
   attachEventListeners(path) {
-    // Importer BurgerMenu dynamiquement et le setup
-    import('/src/template/BurgerMenu/script.js').then(module => {
-      const { BurgerMenu } = module;
-      BurgerMenu.setupMenuHandlers();
-    }).catch(err => console.error('Erreur chargement BurgerMenu:', err));
+    // BurgerMenu est déjà importé et disponible globalement
+    // Il sera setupé depuis le HTML après le rendu
     
     // Event listener pour le bouton de login
     const loginBtn = document.getElementById('loginBtn');
