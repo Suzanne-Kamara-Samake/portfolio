@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfoliovitrine</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wdth,wght@100..200,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/utilities.css" />
+  </head>
+  <body class=" body flex relative ">
+<div id="app" class=" flex  h-screen w-screen overflow-y-auto" ></div>
+    <script type="module" >
+      import { LayoutPage} from "/src/template/Layout/page.js";
+      import { ContactPage} from "/src/template/Contact/page.js";
+      import { ProjectPage} from "/src/template/Project/page.js";
+      import { AboutMePage} from "/src/template/About Me/page.js";
+      import { ConstructionPage} from "/src/template/EnCoursConstruction/page.js";
+      import { BurgerMenu } from "/src/template/BurgerMenu/script.js";
+      import {NavigationPage} from "/src/template/BurgerMenu/page.js";
+      import { Router } from "/src/utils/router.js";
+      let C = {};
+      
+
+      C.init = function(){
+        // Pas besoin de DOMContentLoaded, on est déjà chargé
+        // Attendre que la première page soit rendue
+        let retries = 0;
+        const setupBurger = () => {
+          const menuToggle = document.getElementById('menu-toggle');
+          if (menuToggle && retries < 50) {
+            BurgerMenu.setupMenuHandlers();
+          } else if (retries < 50) {
+            retries++;
+            setTimeout(setupBurger, 100);
+          }
+        };
+        setTimeout(setupBurger, 500);
+      };
+
+      const router = new Router('app');
+
+      // Fonction pour construire les chemins
+      const makePath = (name) => name === '' ? '/' : '/' + name;
+      
+      router.addRoute(makePath(''), () => LayoutPage());
+      router.addRoute(makePath('about'), () => AboutMePage());
+      router.addRoute(makePath('projects'), () => ConstructionPage());
+      router.addRoute(makePath('contacts'), () => ContactPage());
+
+      // Exposer le router globalement
+      window.router = router;
+
+      // Démarrer le routeur
+      router.start();
+
+      // Puis initialiser le reste (burger, etc.)
+      C.init();
+    </script>
+  </body>
+</html>
